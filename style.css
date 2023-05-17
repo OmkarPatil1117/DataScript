@@ -142,9 +142,13 @@ body {
   }
 
 @media only screen and (max-width:600px)  {
+
+    section {
+        margin-top: 65%;
+    }
+
     .demoContact {
         display: block;
-        justify-content: space-around;
     }   
 
     .Bannerimg {
