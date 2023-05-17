@@ -1,29 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .Bannerimg {
     width: 100%;
-    background-size: cover;
+    object-fit: fill;
     height: 65vh;
 }
 
 .demoContact {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .ContactCard {
     background-color: white;
     padding: 1rem;
     height: 15rem;
-    margin-top: 2rem;
+    margin: 1rem 0 0rem 0rem;
     width: 35rem;
     position: relative;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
 }
 
 .DemoCard {
     background-color: black;
+    margin: 1rem 0 1rem 1rem;
     padding: 1rem;
     height: 15rem;
-    margin-top: 2rem;
+    margin: 1rem;
     width: 35rem;
+    border-top: 0.5px solid black;
+    border-right: 0.5px solid black;
+    border-bottom: 0.5px solid black;
     position: relative;
 }
 
@@ -74,7 +85,7 @@
 
 .typesServicesCard {
     margin-top: 4rem;
-    width: 33.33%;
+    width: 30.33%;
 }
 
 .OurProducts {
@@ -110,6 +121,15 @@
     height: 15rem;
     border: 0.5px solid #D7D7D7;
 }
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid #909090;
+  }
 
 @media only screen and (max-width:600px)  {
     .demoContact {
