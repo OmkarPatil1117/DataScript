@@ -8,7 +8,8 @@ button {
 
 .Bannerimg {
     width: 100%;
-    object-fit: fill;
+    /* object-fit: fill; */
+    background-size: cover;
     height: 65vh;
 }
 
