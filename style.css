@@ -17,6 +17,10 @@ button {
     justify-content: center;
 }
 
+section {
+    margin-top: 35%;
+}
+
 .ContactCard {
     background-color: white;
     padding: 1rem;
@@ -145,15 +149,19 @@ button {
 @media only screen and (max-width:600px)  {
 
     section {
-        margin-top: 65%;
+        margin-top: 90%;
+    }
+
+    .architectureimg {
+        display: none;
     }
 
     .demoContact {
-        display: block;
+        display: none;
     }   
 
     .Bannerimg {
-        height: 30vh;
+        height: 90vh;
     }  
 
     .ServicesSection {
