@@ -169,6 +169,14 @@ section {
     width: 100%; padding: 5rem; padding-left: 7rem; padding-right: 7rem
   }
 
+  #securityCard {
+          background-color: black; color: white; height: 341.6041259765625px;
+          width: 341.6041259765625px;
+          left: 0px;
+          top: 0px;
+          border-radius: 8px;           
+  }
+
 @media only screen and (max-width:986px)  {
 
     section {
@@ -218,5 +226,9 @@ section {
         padding: 1rem;
         padding-left: 4rem;
         padding-right: 4rem;
+    }
+
+    #securityCard {
+        width: 255.55px;
     }
 }
